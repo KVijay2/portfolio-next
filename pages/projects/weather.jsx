@@ -1,5 +1,5 @@
 import React from 'react';
-import weather from '../../public/assets/projects/weather-next.png'
+import weatherImg from '../../public/assets/projects/weather-next.png'
 import ProjectTemplate from '../../components/ProjectTemplate'
 import ProjectTemplate2 from '../../components/ProjectT2';
 import { RiRadioButtonFill } from 'react-icons/ri';
@@ -8,7 +8,7 @@ import Link from 'next/link';
 const weather = () => {
     return (
       <div className='w-full'>
-        <ProjectTemplate2 title='Weather App' techs='Next.JS / Tailwind / API' img={weather}/>
+        <ProjectTemplate2 title='Weather App' techs='Next.JS / Tailwind / API' img={weatherImg}/>
         
         <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
           <ProjectTemplate 

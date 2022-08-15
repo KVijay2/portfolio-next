@@ -1,5 +1,5 @@
 import React from 'react';
-import portfolioD from '../../public/assets/projects/portfolio-django.png'
+import weather from '../../public/assets/projects/weather-next.png'
 import ProjectTemplate from '../../components/ProjectTemplate'
 import ProjectTemplate2 from '../../components/ProjectT2';
 import { RiRadioButtonFill } from 'react-icons/ri';
@@ -8,7 +8,7 @@ import Link from 'next/link';
 const weather = () => {
     return (
       <div className='w-full'>
-        <ProjectTemplate2 title='Portfolio' techs='Django / CSS / HTML' img={portfolioD}/>
+        <ProjectTemplate2 title='Weather App' techs='Next.JS / Tailwind / API' img={weather}/>
         
         <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
           <ProjectTemplate 
@@ -16,7 +16,7 @@ const weather = () => {
             Tailwind CSS. The application is hosted statically using Netlify. This 
             is a mobile responsive Weather App and features API to fetch data from 
             it. A few features to note with this project are lazy loading images 
-            using the Image component, built in routing, and .' 
+            using the Image component, built in routing, and Weather widgets.' 
             code ='github.com/KVijay2/weather-app' 
             demo ='https://vijay-next-weather.netlify.app'/>
           

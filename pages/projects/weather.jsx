@@ -17,7 +17,7 @@ const weather = () => {
             is a mobile responsive Weather App and features API to fetch data from 
             it. A few features to note with this project are lazy loading images 
             using the Image component, built in routing, and Weather widgets.' 
-            code ='github.com/KVijay2/weather-app' 
+            code ='https://github.com/KVijay2/weather-app' 
             demo ='https://vijay-next-weather.netlify.app'/>
           
           <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>

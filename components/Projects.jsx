@@ -49,13 +49,13 @@ const Projects = () => {
           <ProjectItem
             title='Weather App'
             backgroundImg={weather1}
-            projectUrl='https://vijay-next-weather.netlify.app'
+            projectUrl='/projects/weather'
             tech='Next JS'
           />
           <ProjectItem
             title='Chat app'
             backgroundImg={Chat}
-            projectUrl='/twitch'
+            projectUrl='/projects/chatapp'
             tech='React JS'
           />
           <ProjectItem
@@ -67,49 +67,49 @@ const Projects = () => {
           <ProjectItem
             title='React Portfolio'
             backgroundImg={portfolioR}
-            projectUrl='/twitch'
+            projectUrl='/projects/portfolioReact'
             tech='React'
-          />
-          <ProjectItem
-              title='Notes App'
-              backgroundImg={notes}
-              projectUrl='/twitch'
-              tech='Flask'
           />
           <ProjectItem
             title='React Dashboard'
             backgroundImg={dashboard}
-            projectUrl='/twitch'
+            projectUrl='https://vijay-dashboard.netlify.app'
             tech='React'
           />
           <ProjectItem
             title='Search Filter'
             backgroundImg={seafil}
-            projectUrl='/twitch'
+            projectUrl='https://vijay-search-filter.netlify.app'
             tech='React'
           />
           <ProjectItem
             title='Todo App 2'
             backgroundImg={todoR}
-            projectUrl='/twitch'
+            projectUrl='https://vijay-todo.netlify.app'
             tech='React'
           />
           <ProjectItem
             title='Todo App'
             backgroundImg={todoD}
-            projectUrl='/twitch'
+            projectUrl='http://127.0.0.1:8000/'
             tech='Django'
+          />
+          <ProjectItem
+              title='Notes App'
+              backgroundImg={notes}
+              projectUrl='http://127.0.0.1:4000/'
+              tech='Flask'
           />
           <ProjectItem
             title='Weather Detector'
             backgroundImg={weather}
-            projectUrl='/twitch'
+            projectUrl='http://127.0.0.1:1000/'
             tech='Django'
           />
           <ProjectItem
             title='Weather App 2'
             backgroundImg={weather2}
-            projectUrl='/twitch'
+            projectUrl='https://vijay-weather.netlify.app'
             tech='React'
           />
         </div>
